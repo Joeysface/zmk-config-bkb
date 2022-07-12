@@ -81,9 +81,9 @@
  *   Encoder Right: Left <-> Right
  */
                         bindings = <
-      &none        &kp        Q &kp        W &kp        F &kp        P &kp        B                 &kp        J &kp        L &kp        U &kp        Y &kp    UNDER &none
-      &none        &kp        A &kp        R &kp        S &kp        T &kp        G                 &kp        M &kp        N &kp        E &kp        I &kp        O &none
-      &none        &kp        Z &kp        X &kp        C &kp        D &kp        V                 &kp        K &kp        H &kp    COMMA &kp   PERIOD &kp     APOS &none
+      &none        &kp        Q &kp        W &kp        E &kp        R &kp        T                 &kp        Y &kp        U &kp        I &kp        O &kp        P &none
+      &none        &kp        A &kp        S &kp        D &kp        F &kp        G                 &kp        H &kp        J &kp        K &kp        L &kp     SEMI &none
+      &none        &kp        Z &kp        X &kp        C &kp        V &kp        B                 &kp        N &kp        M &kp    COMMA &kp   PERIOD &kp    SLASH &none
                                              &none        &mo      NAV &kp    SPACE                 &td0         &mo  SYMBOLS &none
 
                         >;
@@ -110,7 +110,7 @@
                         bindings = <
       &trans       &kp        W &kp        L &kp        Y &kp        P &kp        B                 &kp        Z &kp        F &kp        O &kp        U &kp     APOS &trans
       &trans       &kp        C &kp        R &kp        S &kp        T &kp        G                 &kp        M &kp        N &kp        E &kp        I &kp        A &trans
-      &trans       &kp        Q &kp        J &kp        V &kp        D &kp        K                 &kp        X &kp        H &kp    COMMA &kp   PERIOD &kp    UNDER &trans
+      &trans       &kp        Q &kp        J &kp        V &kp        D &kp        K                 &kp        X &kp        H &kp    COMMA &kp   PERIOD &kp    SLASH &trans
                                              &none        &mo      NAV &kp    SPACE                 &td0         &mo  SYMBOLS &none
                         >;
 
